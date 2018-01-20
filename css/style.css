@@ -672,8 +672,7 @@ footer {
     color: #fff;
 }
 
-#five .photograph { 
-    background: url("../images/photo1.png") transparent 40% 100px no-repeat fixed; 
+#five .photograph {  
     min-height: 1000px; 
     padding: 0; 
     margin: 0; 
@@ -856,17 +855,18 @@ footer {
     margin: 0;
 }
 
+/* ---------- About Page ---------- */
 .about_bcg {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100vh;
-        width: 100vw;
-        background: url(../images/about-page.jpg) no-repeat center 80% fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: url(../images/about-page.jpg) no-repeat center 80% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .about_team {
@@ -919,6 +919,36 @@ footer {
     margin-top: -12vh;
 }
 
+    
+/* ---------- Back to Top Btn ---------- */
+.back_top-container {
+    position: absolute;
+    right: 5vw;
+    height: auto;
+    bottom: 5vh;
+    padding: 0;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.back_top h2 {
+    position: relative;
+    color: #dedede;
+}
+
+.back_top img {
+    position: relative;
+    top: 0;
+}
+
+.back_top img:hover{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transition: all 0.5s;
+    top: 0;
+}
 /* ---------- Responsive Media Style ---------- */
 @media screen and (max-width: 999px){
     body{

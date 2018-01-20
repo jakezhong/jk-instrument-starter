@@ -9,9 +9,12 @@
     <script src="js/jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
+    <!-- START HEADER -->
     <header id="header">
         <nav><div class="ham_menu" id="ham_menu"></div></nav>
     </header>
+    <!-- END HEADER -->
+    <!-- START MENU -->
     <div class="menu_panel" id="menu_panel">
         <nav>
             <ul>
@@ -35,26 +38,27 @@
                     </ul>
                 </div>
                 <div class="copyright">
-                    <p>Copyright 2015 <a href="http://www.instrumentstarter.com"><span>Instrumentstart.com</span></a></p>
+                    <p>Copyright @2018 <a href="http://www.instrumentstarter.com"><span>Instrumentstart.com</span></a></p>
                 </div>
             </div>	
         </footer>
     </div>
+    <!-- END MENU -->
     <div class="container">
         <button class="c-hamburger c-hamburger--htx">
-          <span>toggle menu</span>
+            <span>toggle menu</span>
         </button>
         <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
         </div>
         <div class="nav_overlay">
-                <ul class="overlay_nav">
-                    <a href="index.html"><li>HOME</li></a>
-                    <a href="history.html"><li>HISTORY</li></a>
-                    <a href="tutorial.html"><li>TUTORIAL</li></a>
-                    <a href="practice.html"><li>PRACTICE</li></a>
-                    <a href="about.html"><li>ABOUT</li></a>
-                </ul>
+            <ul class="overlay_nav">
+                <a href="index.html"><li>HOME</li></a>
+                <a href="history.html"><li>HISTORY</li></a>
+                <a href="tutorial.html"><li>TUTORIAL</li></a>
+                <a href="practice.html"><li>PRACTICE</li></a>
+                <a href="about.html"><li>ABOUT</li></a>
+            </ul>
             <footer>
                 <div class="footer-bottom">
                     <div class="social-menu">
@@ -85,17 +89,17 @@
                 <a href="javascript:switchinstrument(2)">
                     <img name="navImg" class="nav-icon" id="img_about" src="images/menu_drum.png" width="64" onclick="navActivation.getActivation(img_about)">
                 </a>
-                <a>
+                <a href="#">
                     <div id="img_refer" style="width:64px; float: left;"></div>
                 </a>
-        </div>
+            </div>
             <div id="carousel_container" class="carousel slide full_height">
                 <div class="carousel-inner full_height">
                     <div id="instrument_home" class="instrument item active" tag="home">
                         <div class="piano_history_pc">
                             <section id="first" class="story" data-type="background" style="background-position: 50% 0px;">
                                 <div class="smashinglogo" data-type="sprite" data-offsety="100" data-xposition="50%" data-speed="-2" style="background-position: 50% 100px;">
-                                <div class="downArrow">▼</div>
+                                    <div class="downArrow">▼</div>
                                 </div>		
                             </section>
                             <section id="second_1" class="story" data-type="background" style="background-position: 50% -25px;">
@@ -105,8 +109,7 @@
                                     <h2>
                                         <img src="images/history/development-content1-1.png">
                                     </h2>
-                                    <p>Cristofori's new instrument 
-                                remained relatively unknown until an Italian writer, Scipione Maffei, wrote an enthusiastic article about it in 1711, including a diagram of the mechanism, that was translated into German and widely distributed.Most of the next generation of piano builders started their work due to reading it. One of these builders was Gottfried Silbermann, better known as an organ builder. Silbermann's pianos were virtually direct copies of Cristofori's, with one important addition: Silbermann invented the forerunner of the modern sustain pedal, which lifts all the dampers from the strings simultaneously. Silbermann showed Johann Sebastian Bach one of his early instruments in the 1730s, but Bach did not like it at that time, claiming that the higher notes were too soft to allow a full dynamic range. Although this earned him some animosity from Silbermann, the criticism was apparently heeded. Bach did approve of a later instrument he saw in 1747, and even served as an agent in selling Silbermann's pianos.</p>
+                                    <p>Cristofori's new instrument remained relatively unknown until an Italian writer, Scipione Maffei, wrote an enthusiastic article about it in 1711, including a diagram of the mechanism, that was translated into German and widely distributed.Most of the next generation of piano builders started their work due to reading it. One of these builders was Gottfried Silbermann, better known as an organ builder. Silbermann's pianos were virtually direct copies of Cristofori's, with one important addition: Silbermann invented the forerunner of the modern sustain pedal, which lifts all the dampers from the strings simultaneously. Silbermann showed Johann Sebastian Bach one of his early instruments in the 1730s, but Bach did not like it at that time, claiming that the higher notes were too soft to allow a full dynamic range. Although this earned him some animosity from Silbermann, the criticism was apparently heeded. Bach did approve of a later instrument he saw in 1747, and even served as an agent in selling Silbermann's pianos.</p>
                                 </article>
                                 <div class="second_1_img">
                                     <img src="images/history/history_early_piano.jpg">
@@ -165,7 +168,7 @@
                                 -->
                             </section>	
                             <section id="five" class="story" data-type="background" data-offsety="250">    	
-                            <div class="photograph" data-type="sprite" data-offsety="2450" data-xposition="25%" data-speed="2" style="background-position: 25% 650px;">
+                                <div class="photograph" data-type="sprite" data-offsety="2450" data-xposition="25%" data-speed="2" style="background-position: 25% 650px;">
                                 <div class="five_title">
                                     <img src="images/history/upgrade-title.png">
                                 </div>
@@ -213,13 +216,12 @@
                                 <div class="seventh_img">
                                     <img src="images/history/history-page-typesetting.png">
                                 </div>
-                                <a>
-                                    <div class="back_top-container">
-                                        <div class="back_top" id="back_top">
-                                            <img src="images/backtop.png" width="50px" height="50px" id="back_top_img">
-                                            <h2>Back to Top</h2></div>
+                                <div class="back_top-container">
+                                    <div class="back_top" id="back_top">
+                                        <img src="images/backtop.png" width="50px" height="50px">
+                                        <h2>Back to Top</h2>
                                     </div>
-                                </a>
+                                </div>
                             </section>
                         </div>
                         <div class="piano_history_mobile">
@@ -234,8 +236,7 @@
                                 <article>
                                     <div class="second_mobile1_img">
                                         <img src="images/history/history_early_piano.jpg">
-                                    Cristofori's new instrument 
-                                remained relatively unknown until an Italian writer, Scipione Maffei, wrote an enthusiastic article about it in 1711, including a diagram of the mechanism, that was translated into German and widely distributed.Most of the next generation of piano builders started their work due to reading it. One of these builders was Gottfried Silbermann, better known as an organ builder. Silbermann's pianos were virtually direct copies of Cristofori's, with one important addition: Silbermann invented the forerunner of the modern sustain pedal, which lifts all the dampers from the strings simultaneously. Silbermann showed Johann Sebastian Bach one of his early instruments in the 1730s, but Bach did not like it at that time, claiming that the higher notes were too soft to allow a full dynamic range. Although this earned him some animosity from Silbermann, the criticism was apparently heeded. Bach did approve of a later instrument he saw in 1747, and even served as an agent in selling Silbermann's pianos.
+                                        <p>Cristofori's new instrument remained relatively unknown until an Italian writer, Scipione Maffei, wrote an enthusiastic article about it in 1711, including a diagram of the mechanism, that was translated into German and widely distributed.Most of the next generation of piano builders started their work due to reading it. One of these builders was Gottfried Silbermann, better known as an organ builder. Silbermann's pianos were virtually direct copies of Cristofori's, with one important addition: Silbermann invented the forerunner of the modern sustain pedal, which lifts all the dampers from the strings simultaneously. Silbermann showed Johann Sebastian Bach one of his early instruments in the 1730s, but Bach did not like it at that time, claiming that the higher notes were too soft to allow a full dynamic range. Although this earned him some animosity from Silbermann, the criticism was apparently heeded. Bach did approve of a later instrument he saw in 1747, and even served as an agent in selling Silbermann's pianos.</p>
                                     </div>
                                 </article>
                             </section>
@@ -246,8 +247,7 @@
                                 <article>
                                     <div class="second_mobile2_img">
                                     <img src="images/history/history-grand-piano4.jpg">
-                                   In the period lasting from about 1790 to 1860, the Mozart-era piano underwent tremendous changes that led to the modern form of the instrument. This revolution was in response to a preference by composers and pianists for a more powerful, sustained piano sound, and made possible by the ongoing Industrial Revolution with resources such 
-                as high-quality piano wire for strings, and precision casting for the production of iron frames. Over time, the tonal range of the piano was also increased from the five octaves of Mozart's day to the 7-plus range found on modern pianos.
+                                    <p>In the period lasting from about 1790 to 1860, the Mozart-era piano underwent tremendous changes that led to the modern form of the instrument. This revolution was in response to a preference by composers and pianists for a more powerful, sustained piano sound, and made possible by the ongoing Industrial Revolution with resources such as high-quality piano wire for strings, and precision casting for the production of iron frames. Over time, the tonal range of the piano was also increased from the five octaves of Mozart's day to the 7-plus range found on modern pianos.</p>
                                     </div>
                                 </article>
                             </section>
@@ -258,8 +258,7 @@
                                 <article>
                                     <div class="second_mobile3_img">
                                     <img src="images/history/history_Upright_piano_inside.jpg">
-                                        Some early pianos had shapes and designs that are no longer in use. The square piano(not truly square, but rectangular) was cross strung at an extremely acute angle above the hammers, with the keyboard set along the long side. This design is attributed to Gottfried Silbermann or Christian Ernst Friderici on thecontinent, and Johannes Zumpe or Harman Vietor in England, and it was improved by changes first introduced by Guillaume-Lebrecht Petzold in France and Alpheus Babcock in the 
-                United States. Square pianos were built in great numbers through the 1840s in Europe and the 1890s in the United States, and saw the most visible change of any type of piano: the iron-framed, over-strung squares manufactured by Steinway & Sons were more than  two-and-a-half times the size of Zumpe's wood-framed instruments from a century before. Their overwhelming popularity was due to inexpensive construction and price, although their tone and performance were limited by narrow soundboards, simple actions and string spacing that made proper hammer alignment difficult.
+                                        <p>Some early pianos had shapes and designs that are no longer in use. The square piano(not truly square, but rectangular) was cross strung at an extremely acute angle above the hammers, with the keyboard set along the long side. This design is attributed to Gottfried Silbermann or Christian Ernst Friderici on thecontinent, and Johannes Zumpe or Harman Vietor in England, and it was improved by changes first introduced by Guillaume-Lebrecht Petzold in France and Alpheus Babcock in the United States. Square pianos were built in great numbers through the 1840s in Europe and the 1890s in the United States, and saw the most visible change of any type of piano: the iron-framed, over-strung squares manufactured by Steinway & Sons were more than  two-and-a-half times the size of Zumpe's wood-framed instruments from a century before. Their overwhelming popularity was due to inexpensive construction and price, although their tone and performance were limited by narrow soundboards, simple actions and string spacing that made proper hammer alignment difficult.</p>
                                     </div>
                                 </article>
                             </section>
@@ -268,32 +267,40 @@
                                     <img src="images/history/types-title.png">
                                 </h2>
                                 <article>
-                                    <p>Modern acoustic pianos have two basic configurations, the grand piano and the upright piano, with various styles of each.<br/><br/>There are also specialized and novelty pianos, electric pianos based on electromechanical designs, electronicpianos that synthesize piano-like tones using oscillators, and digital pianos using digital samples of acoustic piano sounds.</p>
+                                    <p>Modern acoustic pianos have two basic configurations, the grand piano and the upright piano, with various styles of each.</p>
+                                    <p>There are also specialized and novelty pianos, electric pianos based on electromechanical designs, electronicpianos that synthesize piano-like tones using oscillators, and digital pianos using digital samples of acoustic piano sounds.</p>
                                 </article>
                             </section>
                             <section id="fourth_mobile" class="story">
-                                    <h2>
-                                        <img src="images/history/grand-title.png">
-                                    </h2>
-                                    <article>
-                                        <div class="fourth_mobile_img">
-                                            <img src="images/history/grand-picture.png">
-                                            In grand pianos, the frame and strings are horizontal, with the strings extending away from the keyboard. The action lies beneath the strings, and uses gravity as its means of return to a state of rest.<br/><br/>There are many sizes of grand piano. A rough generalization distinguishes the concert grand (between 2.2 and 3 meters long, about 7–10 feet) from the parlor grand or boudoir grand (1.7 to 2.2 meters long, about 6–7 feet) and the smaller baby grand (around 1.5 metres (5 feet)).<br/><br/>All else being equal, longer pianos with longer strings have larger, richer sound and lower inharmonicity of the strings. Inharmonicity is the degree to which the frequencies of overtones (known as partials or harmonics) sound sharp relative to whole multiples of the fundamental frequency. This results from the piano's considerable string stiffness; as a struck string decays its harmonics vibrate, not from their termination, but from a point very slightly toward the center (or more flexible part) of the string. The higher the partial, the further sharp it runs. Pianos with shorter and thicker string (i.e., small pianos with short string scales) have more inharmonicity. The greater the inharmonicity, the more the ear perceives it as harshness of tone
-                                        </div>
-                                    </article>
+                                <h2>
+                                    <img src="images/history/grand-title.png">
+                                </h2>
+                                <article>
+                                    <div class="fourth_mobile_img">
+                                        <img src="images/history/grand-picture.png">
+                                        <p>In grand pianos, the frame and strings are horizontal, with the strings extending away from the keyboard. The action lies beneath the strings, and uses gravity as its means of return to a state of rest.</p>
+                                        <p>There are many sizes of grand piano. A rough generalization distinguishes the concert grand (between 2.2 and 3 meters long, about 7–10 feet) from the parlor grand or boudoir grand (1.7 to 2.2 meters long, about 6–7 feet) and the smaller baby grand (around 1.5 metres (5 feet)).</p>
+                                        <p>All else being equal, longer pianos with longer strings have larger, richer sound and lower inharmonicity of the strings. Inharmonicity is the degree to which the frequencies of overtones (known as partials or harmonics) sound sharp relative to whole multiples of the fundamental frequency. This results from the piano's considerable string stiffness; as a struck string decays its harmonics vibrate, not from their termination, but from a point very slightly toward the center (or more flexible part) of the string. The higher the partial, the further sharp it runs. Pianos with shorter and thicker string (i.e., small pianos with short string scales) have more inharmonicity. The greater the inharmonicity, the more the ear perceives it as harshness of tone</p>
+                                    </div>
+                                </article>
                             </section>
                             <section id="fiveth_mobile" class="story">
-                                    <h2>
-                                        <img src="images/history/upgrade-title.png">
-                                    </h2>
-                                    <article>
-                                        <div class="fiveth_mobile_img">
+                                <h2>
+                                    <img src="images/history/upgrade-title.png">
+                                </h2>
+                                <article>
+                                    <div class="fiveth_mobile_img">
                                         <img src="images/history/upright-picture.png">
-                                            Upright pianos, also called vertical pianos, are more compact because the frame and strings are vertical. The hammers move horizontally, and return to their 
-                    resting position via springs, which are susceptible to degradation. Upright pianos with unusually tall frames and long strings are sometimes called upright grand pianos. Some authors classify modern pianos according to their height and to modifications of the action that are necessary to accommodate the height.<br/><br/>
-                    •  Studio pianos are around 42 to 45 inches (106 to 114 cm) tall. This is the shortest cabinet that can accommodate a full-sized action located above the keyboard.<br/><br/>•  Console pianos have a compact action (shorter hammers), and are a few inches shorter than studio models.<br/><br/>•  The top of a spinet model barely risesabove the keyboard. <br/><br/>•  The action is located below, operated by vertical wires that are attached to the backs of the keys.<br/><br/>•  Anything taller than a studio piano is called an upright.
-                                        </div>
-                                    </article>
+                                        <ul>
+                                            <li>Upright pianos, also called vertical pianos, are more compact because the frame and strings are vertical. The hammers move horizontally, and return to their resting position via springs, which are susceptible to degradation. Upright pianos with unusually tall frames and long strings are sometimes called upright grand pianos. Some authors classify modern pianos according to their height and to modifications of the action that are necessary to accommodate the height.</li>
+                                            <li>•  Studio pianos are around 42 to 45 inches (106 to 114 cm) tall. This is the shortest cabinet that can accommodate a full-sized action located above the keyboard.</li>
+                                            <li>•  Console pianos have a compact action (shorter hammers), and are a few inches shorter than studio models.</li>
+                                            <li>•  The top of a spinet model barely risesabove the keyboard. </li>
+                                            <li>•  The action is located below, operated by vertical wires that are attached to the backs of the keys.</li>
+                                            <li>•  Anything taller than a studio piano is called an upright.</li>
+                                        </ul>
+                                    </div>
+                                </article>
                             </section>
                             <section id="sixth_mobile" class="story">
                                 <h2>
@@ -301,10 +308,14 @@
                                 </h2>
                                 <article>
                                     <div class="sixth_mobile_img">
-                                    <img src="images/history/electric-picture.png">
-                                        Upright pianos, also called vertical pianos, are more compact because the frame and strings are vertical. The hammers move horizontally, and return to their 
-                resting position via springs, which are susceptible to degradation. Upright pianos with unusually tall frames and long strings are sometimes called upright grand pianos. Some authors classify modern pianos according to their height and to modifications of the action that are necessary to accommodate the height.<br/><br/>
-                •  Studio pianos are around 42 to 45 inches (106 to 114 cm) tall. This is the shortest cabinet that can accommodate a full-sized action located above the keyboard.<br/><br/>•  Console pianos have a compact action (shorter hammers), and are a few inches shorter than studio models.<br/><br/>•  The top of a spinet model barely risesabove the keyboard. <br/><br/>•  The action is located below, operated by vertical wires that are attached to the backs of the keys.<br/><br/>•  Anything taller than a studio piano is called an upright.
+                                        <img src="images/history/electric-picture.png">
+                                        <p>Upright pianos, also called vertical pianos, are more compact because the frame and strings are vertical. The hammers move horizontally, and return to their resting position via springs, which are susceptible to degradation. Upright pianos with unusually tall frames and long strings are sometimes called upright grand pianos. Some authors classify modern pianos according to their height and to modifications of the action that are necessary to accommodate the height.</p>
+                                        <ul>
+                                            <li>•  Studio pianos are around 42 to 45 inches (106 to 114 cm) tall. This is the shortest cabinet that can accommodate a full-sized action located above the keyboard.</li>
+                                            <li>•  Console pianos have a compact action (shorter hammers), and are a few inches shorter than studio models.<br/><br/>•  The top of a spinet model barely risesabove the keyboard.</li>
+                                            <li>•  The action is located below, operated by vertical wires that are attached to the backs of the keys.</li>
+                                            <li>•  Anything taller than a studio piano is called an upright.</li>
+                                        </ul>
                                     </div>
                                 </article>
                             </section>
@@ -314,8 +325,8 @@
                                 </h2>
                                 <article>
                                     <div class="seventh_mobile1_img">
-                                    <img src="images/history/Minipiano.png">
-                                        The minipiano,an instrument patented by the Brasted brothers of the Eavestaff Ltf. piano company,was patented  in 1934. This instrument has a braceless back, and a sound board positioned below the keys- meaning that long metal rods pulled on the levers to make the hammers strike the strings.
+                                        <img src="images/history/Minipiano.png">
+                                        <p>The minipiano,an instrument patented by the Brasted brothers of the Eavestaff Ltf. piano company,was patented  in 1934. This instrument has a braceless back, and a sound board positioned below the keys- meaning that long metal rods pulled on the levers to make the hammers strike the strings.</p>
                                     </div>
                                 </article>
                             </section>
@@ -325,8 +336,8 @@
                                 </h2>
                                 <article>
                                     <div class="seventh_mobile2_img">
-                                    <img src="images/history/prepared%20piano.jpg">
-                                        Upright pianos, also called vertical pianos,The toy piano, introduced in the 19th century, is a small piano-like instrument , that generally uses round metal rods to produce sound, rather than strings.
+                                        <img src="images/history/prepared%20piano.jpg">
+                                        <p>Upright pianos, also called vertical pianos,The toy piano, introduced in the 19th century, is a small piano-like instrument , that generally uses round metal rods to produce sound, rather than strings.</p>
                                     </div>
                                 </article>
                             </section>
@@ -337,7 +348,7 @@
                                 <article>
                                     <div class="seventh_mobile3_img">
                                     <img src="images/history/toy-piano.png">
-                                        In 1863, Henri Fourneaux invented the player piano, which a piano roll. A machine perforates a performance recording into rolls of paper, and the player piano replays the performance using pneumatic devices.
+                                        <p>In 1863, Henri Fourneaux invented the player piano, which a piano roll. A machine perforates a performance recording into rolls of paper, and the player piano replays the performance using pneumatic devices.</p>
                                     </div>
                                 </article>
                             </section>
@@ -348,18 +359,16 @@
                                 <article>
                                     <div class="seventh_mobile4_img">
                                     <img src="images/history/Upright%20pianos.png">
-                                        The prepared piano, present in some contemporary art music, is a piano with objects placed inside it to alter its sound, or has had its mechanism changed in some other way, The scores for music for prepared piano specify the modifications, for example instructing the pianist to insert pieces of rubber, paper, metal screws, or washers in between the strings.
+                                        <p>The prepared piano, present in some contemporary art music, is a piano with objects placed inside it to alter its sound, or has had its mechanism changed in some other way, The scores for music for prepared piano specify the modifications, for example instructing the pianist to insert pieces of rubber, paper, metal screws, or washers in between the strings.</p>
                                     </div>
                                 </article>
                             </section>
-                            <a>
                             <div class="back_top-container">
                                 <div class="back_top" id="back_top_mobile">
-                                    <img src="images/backtop.png" width="50px" height="50px" id="back_top_img">
+                                    <img src="images/backtop.png" width="50px" height="50px">
                                     <h2>Back to Top</h2>
                                 </div>
                             </div>
-                            </a>
                         </div>
                     </div> 
                     <div id="instrument_intro" class="instrument item" tag="intro">
@@ -371,7 +380,6 @@
                 </div>
             </div>
         </div>
-    </div>
     <script src="js/jquery.touchSwipe.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/TweenLite.min.js"></script>
