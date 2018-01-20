@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <title>TUTORIAL</title>
+      <link rel="stylesheet" href="css/tutorial-style.css" type="text/css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+</head>
+<body>
+    <header id="header">
+        <nav><div class="ham_menu" id="ham_menu"></div></nav>
+    </header>
+    <div class="menu_panel" id="menu_panel">
+        <nav>
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="history.html"><li>HISTORY</li></a>
+                <a href="tutorial.html"><li>TUTORIAL</li></a>
+                <a href="practice.html"><li>PRACTICE</li></a>
+                <a href="about.html"><li>ABOUT</li></a>
+            </ul>
+        </nav>
+        <footer>
+            <div class="footer-bottom">
+                <div class="social-menu">
+                    <ul>
+                        <li><a class="fb" href="#" target="_blank"></a></li>
+                        <li><a class="tw" href="#" target="_blank"></a></li>
+                        <li><a class="oo" href="#" target="_blank"></a></li>
+                        <li><a class="vm" href="#" target="_blank"></a></li>
+                        <li><a class="gp" href="#" target="_blank"></a></li>
+                        <li><a class="cs" href="#" target="_blank"></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>Copyright 2015 <a href="http://www.instrumentstarter.com"><span>Instrumentstart.com</span></a></p>
+                </div>
+            </div>	
+        </footer>
+    </div>
+    <div class="container">
+    <button class="c-hamburger c-hamburger--htx">
+      <span>toggle menu</span>
+    </button>
+    <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+    </div>
+    <div class="nav_overlay">
+            <ul class="overlay_nav">
+                <a href="index.html"><li>HOME</li></a>
+                <a href="history.html"><li>HISTORY</li></a>
+                <a href="tutorial.html"><li>TUTORIAL</li></a>
+                <a href="practice.html"><li>PRACTICE</li></a>
+                <a href="about.html"><li>ABOUT</li></a>
+            </ul>
+        <footer>
+            <div class="footer-bottom">
+                <div class="social-menu">
+                    <ul>
+                        <li><a class="fb" href="#" target="_blank"></a></li>
+                        <li><a class="tw" href="#" target="_blank"></a></li>
+                        <li><a class="oo" href="#" target="_blank"></a></li>
+                        <li><a class="vm" href="#" target="_blank"></a></li>
+                        <li><a class="gp" href="#" target="_blank"></a></li>
+                        <li><a class="cs" href="#" target="_blank"></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>Copyright 2015 <a href="http://www.instrumentstarter.com"><span>Instrumentstart.com</span></a></p>
+                </div>
+            </div>	
+        </footer>
+    </div>
+    <div id="history_container">
+    <div id="nav-wrapper">
+        <a href="javascript:switchinstrument(0)">
+            <img name="navImg" class="nav-icon" id="img_home" src="images/menu_piano.png" width="60" onclick="navActivation.getActivation(img_home)">
+        </a>
+        <a href="javascript:switchinstrument(1)">
+            <img name="navImg" class="nav-icon" id="img_intro" src="images/menu_guitar.png" width="64" onclick="navActivation.getActivation(img_intro)">
+        </a>
+
+        <a href="javascript:switchinstrument(2)">
+            <img name="navImg" class="nav-icon" id="img_about" src="images/menu_drum.png" width="64" onclick="navActivation.getActivation(img_about)">
+        </a>
+        <a>
+            <div id="img_refer" style="width:64px; float: left;"></div>
+        </a>
+    </div>
+    <div id="carousel_container" class="carousel slide full_height">
+        <div class="carousel-inner full_height">
+        <div id="instrument_home" class="instrument item active" tag="home">
+	<section class="section-wrap">
+		<div class="section section-1">
+            <ul class="section-nav">
+              <li style="display:none;"></li>
+              <li class="C_chord" style="margin-left: -0.1vw;"><h2>C CHORD</h2></li>
+              <li class="D_chord"><h2>D CHORD</h2></li>
+              <li class="F_chord"><h2>F CHORD</h2></li>
+              <li class="G_chord"><h2>G CHORD</h2></li>
+              <li class="A_chord"><h2>A CHORD</h2></li>
+              <li class="E_chord"><h2>E CHORD</h2></li>
+            </ul>
+		</div>
+		<div class="section section-2">
+            <div class="chord1"><img src="images/tutorial/tutorial-chords-chord1.png"></div>
+            <div class="video1">
+                <video controls>
+                    <source src="video/tutorial_video1.mp4">
+                </video>
+                <!--<iframe src="video/tutorial_video1.mp4" frameborder="0" allowfullscreen></iframe>-->
+                <img src="images/tutorial/tutorial-video1.png">
+            </div>
+		</div>
+		<div class="section section-3">
+            <div class="chord2"><img src="images/tutorial/tutorial-chords-chord2.png"></div>
+            <div class="video2">
+                <video controls>
+                    <source src="video/tutorial_video2.mp4">
+                </video>
+                <!--<iframe src="video/tutorial_video1.mp4" frameborder="0" allowfullscreen></iframe>-->
+                <img src="images/tutorial/tutorial-video2.png">
+            </div>
+		</div>
+		<div class="section section-4">
+            <div class="chord3"><img src="images/tutorial/tutorial-chords-chord3.png"></div>
+            <div class="video3">
+                <video controls>
+                    <source src="video/tutorial_video3.mp4">
+                </video>
+                <!--<iframe src="video/tutorial_video1.mp4" frameborder="0" allowfullscreen></iframe>-->
+                <img src="images/tutorial/tutorial-video3.png">
+            </div>
+		</div>
+		<div class="section section-5">
+            <div class="chord4"><img src="images/tutorial/tutorial-chords-chord4.png"></div>
+            <div class="video4">
+                <video controls>
+                    <source src="video/tutorial_video4.mp4">
+                </video>
+                <img src="images/tutorial/tutorial-video4.png">
+            </div>
+		</div>
+		<div class="section section-6">
+            <div class="chord5_1"><img src="images/tutorial/tutorial-chords-chord5-1.png"></div>
+            <div class="chord5_2"><img src="images/tutorial/tutorial-chords-chord5-2.png"></div>
+            <div class="video5">
+                <img src="images/tutorial/tutorial-video51.jpg">
+            </div>
+		</div>
+		<div class="section section-7">
+            <div class="chord6"><img src="images/tutorial/tutorial-chords-chord6.png"></div>
+            <div class="video6">
+                <video controls>
+                    <source src="video/tutorial_video6.mp4">
+                </video>
+                <!--<iframe src="video/tutorial_video1.mp4" frameborder="0" allowfullscreen></iframe>-->
+                <img src="images/tutorial/tutorial-video6.png">
+            </div>
+		</div>
+	</section>
+	<ul class="section-btn">
+	  <li class="on"></li>
+	  <li></li>
+	  <li></li>
+	  <li></li>
+	  <li></li>
+	  <li></li>
+	  <li></li>
+	</ul>
+	<div class="arrow">&laquo;</div>
+        </div>
+        <div id="instrument_intro" class="instrument item" tag="intro">
+            <h1 class="history_coming">COMING SOON</h1>
+        </div>
+        <div id="instrument_about" class="instrument item" tag="home">
+            <h1 class="history_coming">COMING SOON</h1>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/nav_bcg.js"></script>
+<script src="js/tutorial_script.js"></script>
+</html>

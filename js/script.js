@@ -175,9 +175,9 @@ $home_piano_menu = $("#home_piano_menu");
 home_piano_video = document.getElementById("home_piano_video");
 var $home_piano_mobile = $("#home_piano_mobile");
 var $animate_container_mobile = $("#animate_container_mobile");
-var piano_audio = new Audio('audio/piano.wav');
-var guitar_audio = new Audio('audio/guitar.wav');
-var drum_audio = new Audio('audio/drum.wav');
+var piano_audio = new Audio('audios/piano.wav');
+var guitar_audio = new Audio('audios/guitar.wav');
+var drum_audio = new Audio('audios/drum.wav');
 $home_piano.click(function() {
     $home_container.fadeOut(1000);
     $animate_container.fadeIn(1000);

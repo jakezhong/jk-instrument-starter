@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instrument Starter</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+</head>
+<body style="overflow: hidden;" class="unselectable">
+    
+    <header id="header">
+        <nav>
+            <div class="ham_menu" id="ham_menu"></div>
+            <div class="write_score_mobile" id="write_score_mobile"></div>
+            <div class="finish_score_mobile" id="finish_score_mobile">FINISH</div>
+        </nav>
+    </header>
+    <div class="menu_panel" id="menu_panel">
+        <nav>
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="history.html"><li>HISTORY</li></a>
+                <a href="tutorial.html"><li>TUTORIAL</li></a>
+                <a href="practice.html"><li>PRACTICE</li></a>
+                <a href="about.html"><li>ABOUT</li></a>
+            </ul>
+        </nav>
+        <footer>
+            <div class="footer-bottom">
+                <div class="social-menu">
+                    <ul>
+                        <li><a class="fb" href="#" target="_blank"></a></li>
+                        <li><a class="tw" href="#" target="_blank"></a></li>
+                        <li><a class="oo" href="#" target="_blank"></a></li>
+                        <li><a class="vm" href="#" target="_blank"></a></li>
+                        <li><a class="gp" href="#" target="_blank"></a></li>
+                        <li><a class="cs" href="#" target="_blank"></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>Copyright 2015 <a href="http://www.instrumentstarter.com"><span>Instrumentstart.com</span></a></p>
+                </div>
+            </div>	
+        </footer>
+    </div>
+    <div class="container">
+    <button class="c-hamburger c-hamburger--htx">
+      <span>toggle menu</span>
+    </button>
+    <div id="large-header" class="large-header">
+        <canvas id="demo-canvas"></canvas>
+    </div>
+    <div class="nav_overlay">
+            <ul class="overlay_nav">
+                <a href="index.html"><li>HOME</li></a>
+                <a href="history.html"><li>HISTORY</li></a>
+                <a href="tutorial.html"><li>TUTORIAL</li></a>
+                <a href="practice.html"><li>PRACTICE</li></a>
+                <a href="about.html"><li>ABOUT</li></a>
+            </ul>
+        <footer>
+            <div class="footer-bottom">
+                <div class="social-menu">
+                    <ul>
+                        <li><a class="fb" href="#" target="_blank"></a></li>
+                        <li><a class="tw" href="#" target="_blank"></a></li>
+                        <li><a class="oo" href="#" target="_blank"></a></li>
+                        <li><a class="vm" href="#" target="_blank"></a></li>
+                        <li><a class="gp" href="#" target="_blank"></a></li>
+                        <li><a class="cs" href="#" target="_blank"></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>Copyright 2015 <a href="http://www.instrumentstarter.com"><span>Instrumentstart.com</span></a></p>
+                </div>
+            </div>	
+        </footer>
+    </div>
+    </div>
+    <div class="practice_container">
+    <div class="write_score" id="write_score">WRITE SCORE</div>
+    <div class="finish_score" id="finish_score">FINISH</div>
+    <input type="text" class="score_title" id="score_title" value="Input Your Title Here"/>
+    <div class="score_container" id="score_container">
+    </div>
+    <div class="score_tip">Press The Keyboard to Input Your Own Score Here</div>
+    <div id="keyboard_container" class="keyboard_container">
+    <div class="keyboard">
+        <ul class="low key">
+          <li class="l1">
+              <span><img src="images/keyboard/l1.png"><br/>Q</span>
+              <audio>
+                <source src="audio/wav/01.wav" type="audio/wav" />
+                <source src="audio/mp3/01.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+          </li>
+        <li class="l2">
+            <span><img src="images/keyboard/l2.png"><br/>W</span>
+            <audio>
+                <source src="audio/wav/02.wav" type="audio/wav" />
+                <source src="audio/mp3/02.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+            </audio>
+        </li>
+          <li class="l3">
+              <span><img src="images/keyboard/l3.png"><br/>E</span>
+              <audio>
+                  <source src="audio/wav/03.wav" type="audio/wav" />
+                  <source src="audio/mp3/03.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+              </audio>
+          </li>
+          <li class="l4">
+              <span><img src="images/keyboard/l4.png"><br/>R</span>
+              <audio>
+                  <source src="audio/wav/04.wav" type="audio/wav" />
+                  <source src="audio/mp3/04.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+              </audio>
+          </li>
+          <li class="l5">
+              <span><img src="images/keyboard/l5.png"><br/>T</span>
+              <audio>
+                  <source src="audio/wav/05.wav" type="audio/wav" />
+                  <source src="audio/mp3/05.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+              </audio>
+          </li>
+          <li class="l6">
+              <span><img src="images/keyboard/l6.png"><br/>Y</span>
+              <audio>
+                  <source src="audio/wav/06.wav" type="audio/wav" />
+                  <source src="audio/mp3/06.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+              </audio>
+          </li>
+          <li class="l7">
+              <span><img src="images/keyboard/l7.png"><br/>U</span>
+              <audio>
+                  <source src="audio/wav/07.wav" type="audio/wav" />
+                  <source src="audio/mp3/07.mp3" type="audio/mpeg" />
+                  Your browser does not support the audio element.
+              </audio>
+          </li>
+        </ul>
+        <ul class="middle key">
+            <li class="m1">
+                <span><img src="images/keyboard/m1.png"><br/>A</span>
+                <audio>
+                    <source src="audio/wav/1.wav" type="audio/wav" />
+                    <source src="audio/mp3/1.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="m2">
+                <span><img src="images/keyboard/m2.png"><br/>S</span>
+                <audio>
+                    <source src="audio/wav/2.wav" type="audio/wav" />
+                    <source src="audio/mp3/2.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="m3">
+                <span><img src="images/keyboard/m3.png"><br/>D</span>
+                <audio>
+                    <source src="audio/wav/3.wav" type="audio/wav" />
+                    <source src="audio/mp3/3.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="m4">
+                <span><img src="images/keyboard/m4.png"><br/>F</span>
+                <audio>
+                    <source src="audio/wav/4.wav" type="audio/wav" />
+                    <source src="audio/mp3/4.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="m5">
+                <span><img src="images/keyboard/m5.png"><br/>G</span>
+                <audio>
+                    <source src="audio/wav/5.wav" type="audio/wav" />
+                    <source src="audio/mp3/5.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="m6">
+                <span><img src="images/keyboard/m6.png"><br/>H</span>
+                <audio>
+                    <source src="audio/wav/6.wav" type="audio/wav" />
+                    <source src="audio/mp3/6.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="m7">
+                <span><img src="images/keyboard/m7.png"><br/>J</span>
+                <audio>
+                    <source src="audio/wav/7.wav" type="audio/wav" />
+                    <source src="audio/mp3/7.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+        </ul>
+        <ul class="high key">
+            <li class="h1">
+                <span><img src="images/keyboard/h1.png"><br/>Z</span>
+                <audio>
+                    <source src="audio/wav/10.wav" type="audio/wav" />
+                    <source src="audio/mp3/10.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="h2">
+                <span><img src="images/keyboard/h2.png"><br/>X</span>
+                <audio>
+                    <source src="audio/wav/20.wav" type="audio/wav" />
+                    <source src="audio/mp3/20.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="h3">
+                <span><img src="images/keyboard/h3.png"><br/>C</span>
+                <audio>
+                    <source src="audio/wav/30.wav" type="audio/wav" />
+                    <source src="audio/mp3/30.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="h4">
+                <span><img src="images/keyboard/h4.png"><br/>V</span>
+                <audio>
+                    <source src="audio/wav/40.wav" type="audio/wav" />
+                    <source src="audio/mp3/40.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="h5">
+                <span><img src="images/keyboard/h5.png"><br/>B</span>
+                <audio>
+                    <source src="audio/wav/50.wav" type="audio/wav" />
+                    <source src="audio/mp3/50.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="h6">
+                <span><img src="images/keyboard/h6.png"><br/>N</span>
+                <audio>
+                    <source src="audio/wav/60.wav" type="audio/wav" />
+                    <source src="audio/mp3/60.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+            <li class="h7">
+                <span><img src="images/keyboard/h7.png"><br/>M</span>
+                <audio>
+                    <source src="audio/wav/70.wav" type="audio/wav" />
+                    <source src="audio/mp3/70.mp3" type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.touchSwipe.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/EasePack.min.js"></script>
+<script src="js/nav_bcg.js"></script>
+<script src="js/keyboard.js"></script>
+</html>
